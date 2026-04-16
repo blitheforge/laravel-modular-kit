@@ -1,14 +1,14 @@
 <?php
 
-namespace Sohoj\LaravelModuleMaker;
+namespace Mahadi\LaravelModuleMaker;
 
 use Illuminate\Support\ServiceProvider;
-use Sohoj\LaravelModuleMaker\Console\Commands\MakeModule;
-use Sohoj\LaravelModuleMaker\Console\Commands\MakeModuleResource;
-use Sohoj\LaravelModuleMaker\Console\Commands\MakeModuleController;
-use Sohoj\LaravelModuleMaker\Console\Commands\MakeModuleModel;
-use Sohoj\LaravelModuleMaker\Console\Commands\MakeModuleMigration;
-use Sohoj\LaravelModuleMaker\Console\Commands\MakeModuleRoute;
+use Mahadi\LaravelModuleMaker\Console\Commands\MakeModule;
+use Mahadi\LaravelModuleMaker\Console\Commands\MakeModuleResource;
+use Mahadi\LaravelModuleMaker\Console\Commands\MakeModuleController;
+use Mahadi\LaravelModuleMaker\Console\Commands\MakeModuleModel;
+use Mahadi\LaravelModuleMaker\Console\Commands\MakeModuleMigration;
+use Mahadi\LaravelModuleMaker\Console\Commands\MakeModuleRoute;
 
 class ModuleMakerServiceProvider extends ServiceProvider
 {
