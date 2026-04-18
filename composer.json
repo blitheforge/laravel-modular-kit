@@ -2,6 +2,7 @@
   "name": "blitheforge/laravel-modular-kit",
   "description": "Laravel package to scaffold modules and module resources.",
   "type": "library",
+  "version": "1.0.0",
   "license": "MIT",
   "keywords": [
     "laravel",
