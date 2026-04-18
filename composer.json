@@ -1,31 +1,49 @@
 {
   "name": "blitheforge/laravel-modular-kit",
-  "version": "1.0.0",
   "description": "Laravel package to scaffold modules and module resources.",
   "type": "library",
   "license": "MIT",
+  "keywords": [
+    "laravel",
+    "package",
+    "modules",
+    "modular",
+    "scaffold"
+  ],
   "authors": [
     {
       "name": "Mahadi Hasan",
       "email": "mehedibuet11@gmail.com"
     }
   ],
+  "homepage": "https://github.com/blitheforge/laravel-modular-kit",
+  "support": {
+    "issues": "https://github.com/blitheforge/laravel-modular-kit/issues",
+    "source": "https://github.com/blitheforge/laravel-modular-kit"
+  },
   "require": {
-    "php": "^8.0",
-    "illuminate/console": "^13.0",
-    "illuminate/filesystem": "^13.0",
-    "illuminate/support": "^13.0"
+    "php": "^8.1 || ^8.2 || ^8.3",
+    "illuminate/support": "^11.0 || ^12.0",
+    "illuminate/console": "^11.0 || ^12.0",
+    "illuminate/filesystem": "^11.0 || ^12.0"
   },
   "autoload": {
     "psr-4": {
-      "Blitheforge\\LaravelModuleMaker\\": "src/"
+      "Blitheforge\\LaravelModularKit\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Blitheforge\\LaravelModularKit\\Tests\\": "tests/"
     }
   },
   "extra": {
     "laravel": {
       "providers": [
-        "Blitheforge\\LaravelModuleMaker\\ModuleMakerServiceProvider"
+        "Blitheforge\\LaravelModularKit\\ModuleMakerServiceProvider"
       ]
     }
-  }
+  },
+  "minimum-stability": "stable",
+  "prefer-stable": true
 }
